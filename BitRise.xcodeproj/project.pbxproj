@@ -353,7 +353,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "5f2ac822-498e-4f61-83b6-935814a4f982";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -393,7 +393,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "5f2ac822-498e-4f61-83b6-935814a4f982";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -406,9 +406,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Krunal Satao (Z2Q6A8UTYD)";
 				INFOPLIST_FILE = BitRise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.deloitte.devicetracker.BitRise;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deloitte.devicetracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5f2ac822-498e-4f61-83b6-935814a4f982";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -419,9 +419,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Krunal Satao (Z2Q6A8UTYD)";
 				INFOPLIST_FILE = BitRise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.deloitte.devicetracker.BitRise;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deloitte.devicetracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5f2ac822-498e-4f61-83b6-935814a4f982";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -490,6 +490,7 @@
 				7895EA271D00372B0005371E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7895EA281D00372B0005371E /* Build configuration list for PBXNativeTarget "BitRiseTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +499,7 @@
 				7895EA2A1D00372B0005371E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7895EA2B1D00372B0005371E /* Build configuration list for PBXNativeTarget "BitRiseUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +508,7 @@
 				7895EA2D1D00372B0005371E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
